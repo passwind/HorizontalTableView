@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
+
+@property (nonatomic,strong) UITableView * horizontalTableView;
+@property (nonatomic,strong) NSMutableArray * feeds;
 
 @end

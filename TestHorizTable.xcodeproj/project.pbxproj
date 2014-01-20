@@ -21,6 +21,7 @@
 		E496D08F188CFAF60032A074 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E496D071188CFAF60032A074 /* UIKit.framework */; };
 		E496D097188CFAF60032A074 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E496D095188CFAF60032A074 /* InfoPlist.strings */; };
 		E496D099188CFAF60032A074 /* TestHorizTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E496D098188CFAF60032A074 /* TestHorizTableTests.m */; };
+		E496D0B4188D0AC50032A074 /* HorizontalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E496D0B2188D0AC50032A074 /* HorizontalCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,9 @@
 		E496D094188CFAF60032A074 /* TestHorizTableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestHorizTableTests-Info.plist"; sourceTree = "<group>"; };
 		E496D096188CFAF60032A074 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E496D098188CFAF60032A074 /* TestHorizTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestHorizTableTests.m; sourceTree = "<group>"; };
+		E496D0B1188D0AC50032A074 /* ControlVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlVariables.h; sourceTree = "<group>"; };
+		E496D0B2188D0AC50032A074 /* HorizontalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalCell.m; sourceTree = "<group>"; };
+		E496D0B3188D0AC50032A074 /* HorizontalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalCell.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,9 @@
 		E496D073188CFAF60032A074 /* TestHorizTable */ = {
 			isa = PBXGroup;
 			children = (
+				E496D0B1188D0AC50032A074 /* ControlVariables.h */,
+				E496D0B2188D0AC50032A074 /* HorizontalCell.m */,
+				E496D0B3188D0AC50032A074 /* HorizontalCell.h */,
 				E496D07C188CFAF60032A074 /* AppDelegate.h */,
 				E496D07D188CFAF60032A074 /* AppDelegate.m */,
 				E496D07F188CFAF60032A074 /* Main.storyboard */,
@@ -250,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E496D084188CFAF60032A074 /* ViewController.m in Sources */,
+				E496D0B4188D0AC50032A074 /* HorizontalCell.m in Sources */,
 				E496D07E188CFAF60032A074 /* AppDelegate.m in Sources */,
 				E496D07A188CFAF60032A074 /* main.m in Sources */,
 			);
@@ -381,6 +389,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestHorizTable/TestHorizTable-Prefix.pch";
 				INFOPLIST_FILE = "TestHorizTable/TestHorizTable-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,6 +403,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestHorizTable/TestHorizTable-Prefix.pch";
 				INFOPLIST_FILE = "TestHorizTable/TestHorizTable-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
